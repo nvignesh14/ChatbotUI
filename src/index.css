@@ -1,0 +1,71 @@
+.app-container {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.chat-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  max-width: 80%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.chat-bubble.user {
+  background-color: #0078d7;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chat-bubble.bot {
+  background-color: #e5e5ea;
+  color: black;
+  align-self: flex-start;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
+
+textarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0078d7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
